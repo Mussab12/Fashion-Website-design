@@ -14,7 +14,7 @@
     width: 274px;
 }
 }
-    @media screen and (max-width:736px) and (min-width:414) {
+    @media screen and (max-width:736px) and (min-width:414px) {
     #home {
         height: 534px;
     }
