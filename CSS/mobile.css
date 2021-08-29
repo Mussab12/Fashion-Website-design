@@ -1,0 +1,16 @@
+@media screen and (max-width: 376px) and (min-width: 280px) {
+    section#home {
+    height: 535px;
+}
+.contactus-container {
+    width: 343px;
+}
+
+}
+
+@media screen and (max-width:280px){
+
+    .contactus-container {
+    width: 274px;
+}
+}
