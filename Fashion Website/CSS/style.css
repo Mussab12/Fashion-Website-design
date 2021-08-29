@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Utility Classes */
+.primary_center {
+  text-align: center;
+  color: white;
+  font-family: "Anton", sans-serif;
+  font-size: 3.4rem;
+  /* border: 1px solid red; */
+  margin: 50px 10px;
+}
+.para_center {
+  color: white;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  
+}
+.secondary_heading {
+  color: white;
+    font-family: "Anton", sans-serif;
+
+}
+/* NAVBAR Styling */
+#navbar {
+  position: relative;
+  top: 0px;
+}
+#navbar::before {
+  content: "";
+  position: absolute;
+  background-color: brown;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  opacity: 0.89;
+}
+/* UL LI A Styling */
+#navbar ul {
+  display: flex;
+}
+#navbar ul li {
+  list-style: none;
+  color: black;
+  padding: 10px 27px;
+}
+#navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Anton", sans-serif;
+  font-size: 1.3vw;
+}
+#navbar ul li a:hover {
+  color: black;
+}
+
+/* Home Section */
+
+#home::before {
+  content: "";
+  position: absolute;
+  background: url("/IMG/nicolas-cool-_6d-Hgu0Wdo-unsplash.jpg") no-repeat center
+    center/cover;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: -2;
+  opacity: 0.86;
+}
+/* Home item slider */
+.home-items-slider {
+  overflow: hidden;
+  
+}
+.home-items-slider figure {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 170%;
+  margin: 0;
+  left: 0;
+
+  animation: 15s slider infinite;
+}
+@keyframes slider {
+  0% {
+    left: 0;
+    right: 0;
+  }
+  25% {
+    left: -70%;
+  }
+  
+}
+figure img {
+
+  /* border: 1px solid red; */
+ width: 25%;
+ height: 300px;
+}
+
+
+/* about Us section */
+#aboutus::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("/IMG/wave-animation.png") no-repeat center center/cover;
+  z-index: -1;
+}
+/* About us items */
+.aboutus-items img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  display: block;
+  padding: 20px;
+}
+/* Contact Us Section */
+#contactus::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url('/IMG/jeremy-bishop-G9i_plbfDgk-unsplash.jpg') no-repeat center center/cover;
+z-index: -1;
+}
+
+/* Contact us container */
+.contactus-container {
+  /* border: 1px solid red; */
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  background-color: #00000042;
+  display: block;
+  margin: auto;
+}
+/* contactbox */
+.contact_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.contactbox-items {
+  padding: 10px;
+}
+.contactbox-items input[type="button"]
+{
+  padding: 10px;
+  border-radius: 10px;
+}
