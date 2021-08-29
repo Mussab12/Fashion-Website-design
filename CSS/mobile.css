@@ -13,6 +13,7 @@
     .contactus-container {
     width: 274px;
 }
+}
     @media screen and (max-width:736px) and (min-width:414) {
     #home {
         height: 534px;
